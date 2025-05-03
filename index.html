@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>နော်စန်းထွေး - ကိုယ်ပိုင် စာမျက်နှာ</title>
+    <style>
+        :root {
+            --primary-color: #FF8C00; /* လိမ္မော်ရောင် */
+            --secondary-color: #4a4a4a;
+            --background-color: #f9f9f9;
+            --card-color: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Pyidaungsu', 'Myanmar3', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary-color), #FFA500);
+            color: white;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            background-color: var(--card-color);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project h3 {
+            margin-bottom: 5px;
+        }
+
+        .quote {
+            font-style: italic;
+            padding: 15px;
+            background-color: #fff8e1;
+            border-left: 4px solid var(--primary-color);
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 20px 20px 0 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <h1>နော်စန်းထွေး</h1>
+            <p>အဋ္ဌမတန်း ကျောင်းသူ | တိတ်ဆိတ်ငြိမ်သက်မှုကို နှစ်သက်သူ | အခြားသူများကို ကူညီရန် နှစ်သက်သူ</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="card">
+            <h2>ကျွန်မအကြောင်း</h2>
+            <p>မင်္ဂလာပါ! ကျွန်မနာမည်က <strong>နော်စန်းထွေး</strong> ဖြစ်ပါတယ်။ အသက် ၁၉ နှစ်ရှိပါပြီ။ <strong>ကရင်ပြည်နယ်၊ လှိုင်းဘွဲ့မြို့နယ်၊ နောကောကျေးရွာ</strong> ကပါ။</p>
+            
+            <div class="quote">
+                "ကျွန်မက တိတ်ဆိတ်စွာ တစ်ယောက်တည်း နေရတာကို နှစ်သက်ပါတယ်။ စကားများများပြောရတာ မကြိုက်ပေမယ့် အခြားသူများကို ကူညီရတာကိုတော့ ဝမ်းသာပါတယ်။"
+            </div>
+            
+            <p>ကျွန်မက <strong>တောင်ကလေးဘုန်းတော်ကြီးသင်ပညာရေးကျောင်း</strong> မှာ နဝမတန်း (Grade 9) တက်ရောက်နေပါတယ်။ တရားထိုင်တာကို အထူးနှစ်သက်ပြီး <strong>ပါဌိကေတုဆု</strong> ကိုလည်း ရရှိဖူးပါတယ်။ ဆပ်ပြာရည်ပြုလုပ်တဲ့ ပရောဂျက်ကိုလည်း လုပ်ဆောင်နေပါတယ်။</p>
+            
+            <p>အိမ်မှာ အငယ်ဆုံးဖြစ်ပေမယ့် အိမ်မှုကိစ္စအားလုံးကို ကျွန်မကိုယ်တိုင် လုပ်ကိုင်ပါတယ်။ ရွာမှာနေတုန်းက ထင်းခွဲတာ၊ ထင်းရှာတာတွေ လုပ်ခဲ့ဖူးပါတယ်။</p>
+            
+            <p>ကျွန်မ အကြိုက်ဆုံးအရောင်က <span style="color: var(--primary-color); font-weight: bold;">လိမ္မော်ရောင်</span> ဖြစ်ပြီး မိဘတွေ အားကိုးရတဲ့ သမီးတစ်ယောက်ဖြစ်ဖို့ ရည်မှန်းထားပါတယ်။</p>
+        </section>
+
+        <section class="card">
+            <h2>ကျွမ်းကျင်မှုများနှင့် ဘာသာစကားများ</h2>
+            <div class="skills">
+                <span class="skill">တရားထိုင်ခြင်း</span>
+                <span class="skill">ဆပ်ပြာရည်ပြုလုပ်ခြင်း</span>
+                <span class="skill">အိမ်မှုကိစ္စများ</span>
+                <span class="skill">ထင်းခွဲခြင်း</span>
+            </div>
+            
+            <h3 style="margin-top: 20px;">ကျွမ်းကျင်စွာ ပြောဆိုနိုင်သော ဘာသာစကားများ:</h3>
+            <div class="skills">
+                <span class="skill">စကောကရင်</span>
+                <span class="skill">အရှေ့ပိုးကရင်</span>
+                <span class="skill">မြန်မာ</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>ကျွန်မ၏ ပရောဂျက်</h2>
+            <div class="project">
+                <h3>ဆပ်ပြာရည်ပြုလုပ်ခြင်း</h3>
+                <p>ကျွန်မက သဘာဝဆပ်ပြာရည်များ ပြုလုပ်တဲ့ ပရောဂျက်ကို လုပ်ဆောင်နေပါတယ်။</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>ကျွန်မ၏ စရိုက်လက္ခဏာ</h2>
+            <p>ကျွန်မက တိတ်ဆိတ်ငြိမ်သက်မှုကို နှစ်သက်တဲ့သူတစ်ယောက်ပါ။ ကျောင်းမှာ အင်္ဂလိပ်စာနဲ့ သင်္ချာကို အားနည်းပေမယ့် ဘာသာစကားအမျိုးမျိုးကိုတော့ ကျွမ်းကျင်စွာ ပြောဆိုနိုင်ပါတယ်။ အခြားသူများကို ကျွန်မ၏တိတ်ဆိတ်သောနည်းလမ်းဖြင့် ကူညီရတာကို နှစ်သက်ပါတယ်။</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© ၂၀၂၃ နော်စန်းထွေး. မူပိုင်ခွင့်အားလုံး ရယူထားပါသည်။</p>
+        </div>
+    </footer>
+
+    <script>
+        // စာမျက်နှာ အပြန်အလှန် တုံ့ပြန်မှုများအတွက် JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // ခေါင်းစီးကို mouse ဖြတ်သွားရင် အရောင်ပြောင်းခြင်း
+            const header = document.querySelector('header');
+            header.addEventListener('mouseover', function() {
+                this.style.background = 'linear-gradient(135deg, #FF6347, #FF8C00)';
+            });
+            header.addEventListener('mouseout', function() {
+                this.style.background = 'linear-gradient(135deg, var(--primary-color), #FFA500)';
+            });
+
+            // စာမျက်နှာ scroll လုပ်တဲ့အခါ card များကို ဖြည်းဖြည်းချင်း ပေါ်လာစေခြင်း
+            const cards = document.querySelectorAll('.card');
+            const options = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, options);
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
